@@ -1,0 +1,36 @@
+[debug] [2018-04-07T19:11:45.185Z] ----------------------------------------------------------------------
+[debug] [2018-04-07T19:11:45.200Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pandiyan Murugan\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-07T19:11:45.201Z] CLI Version:   3.9.2
+[debug] [2018-04-07T19:11:45.201Z] Platform:      win32
+[debug] [2018-04-07T19:11:45.201Z] Node Version:  v6.11.5
+[debug] [2018-04-07T19:11:45.204Z] Time:          Sun Apr 08 2018 00:41:45 GMT+0530 (India Standard Time)
+[debug] [2018-04-07T19:11:45.204Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-07T19:11:45.342Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-07T19:11:45.345Z] > authorizing via signed-in user
+[debug] [2018-04-07T19:11:45.391Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-07T19:11:45.395Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/6oQH9CP0pTBQ_u540fPpb_YOSCRVItM3W21mQJZ8lys',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 08 2018 00:41:45 GMT+0530 (India Standard Time)
+[debug] [2018-04-07T19:11:45.992Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T19:11:46.041Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/vivify-web  
+ Sun Apr 08 2018 00:41:46 GMT+0530 (India Standard Time)
+[debug] [2018-04-07T19:11:47.307Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T19:11:47.309Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/vivify-web/tokens  
+ Sun Apr 08 2018 00:41:47 GMT+0530 (India Standard Time)
+[debug] [2018-04-07T19:11:48.252Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\Sources\BITS\EmployeeCorrelationApp\web-start'...
+[info] 
+[debug] [2018-04-07T19:11:48.300Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/vivify-web  
+ Sun Apr 08 2018 00:41:48 GMT+0530 (India Standard Time)
+[debug] [2018-04-07T19:11:49.838Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-07T19:11:49.840Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/700574428541/clients/_:getWebAppConfig  
+ Sun Apr 08 2018 00:41:49 GMT+0530 (India Standard Time)
+[debug] [2018-04-07T19:11:50.632Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
